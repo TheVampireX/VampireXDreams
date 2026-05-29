@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VampireX's Dream Journal</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- HERO -->
+  <div class="hero">
+    <div class="hero-ornament"></div>
+    <p class="hero-subtitle-top">Registro Personal</p>
+    <h1 class="hero-title">
+      Dream Journal
+      <span>VampireX's Madness</span>
+    </h1>
+    <p class="hero-tagline">
+      Un repositorio de experiencias oníricas, señales y revelaciones del mundo de los sueños.
+    </p>
+    <div class="hero-ornament-bottom"></div>
+  </div>
+
+  <!-- NAVIGATION -->
+  <nav class="nav-bar">
+    <div class="nav-inner">
+      <a href="#" data-view="list">Entradas</a>
+      <a href="#" data-view="create" id="nav-create">Nueva Entrada</a>
+      <a href="#" data-view="search">Buscar</a>
+      <a href="#" data-view="manage" id="nav-manage">⚙️ Gestión</a>
+    </div>
+  </nav>
+
+  <!-- INPUT OCULTO PARA CARGAR ARCHIVOS -->
+  <input type="file" id="file-input" accept="application/json" style="display: none;">
+
+  <!-- MAIN CONTENT -->
+  <main id="app">
+    <!-- Contenido dinámico -->
+  </main>
+
+  <!-- FOOTER -->
+  <div class="footer">
+    <div class="footer-ornament"></div>
+    <p>Diario Onírico — Registro de Sueños</p>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
